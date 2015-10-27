@@ -16,7 +16,6 @@ FieldList::create(
 	NoticeMessage::create('This is a useful hint.'),
 	Message::generic('Some more information.')
 );
-
 ````
 generates
 
