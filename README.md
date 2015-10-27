@@ -2,13 +2,13 @@
 
 ## Introduction
 
-Type less, do more. This module contains a number of classes make the generation of message boxes as FormFields in the SilverStripe backend easier.
+Type less, do more. This module contains a number of classes to make the generation of message boxes as FormFields in the SilverStripe backend easier.
 
 ## Usage
 
-````
-<?php
+Within any FieldList you can call any of the following static methods to create a message box:
 
+````
 FieldList::create(
 	ErrorMessage::create('Ehh, something went wrong.'),
 	WarningMessage::create('Be careful with this!'),
