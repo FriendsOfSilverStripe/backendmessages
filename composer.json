@@ -1,7 +1,7 @@
 {
 	"name": "friendsofsilverstripe/backendmessages",
 	"type": "silverstripe-module",
-	"homepage": "http://silverstripe.org",
+	"homepage": "https://github.com/friendsofsilverstripe",
 	"license": "BSD-3-Clause",
 	"keywords": ["silverstripe", "cms", "message", "warning", "notification"],
 	"authors": [{
