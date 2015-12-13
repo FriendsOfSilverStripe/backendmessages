@@ -1,5 +1,11 @@
 # Backend messages
 
+[![Build Status](https://api.travis-ci.org/FriendsOfSilverStripe/backendmessages.svg?branch=master)](https://travis-ci.org/FriendsOfSilverStripe/backendmessages)
+[![Latest Stable Version](https://poser.pugx.org/FriendsOfSilverStripe/backendmessages/version.svg)](http://www.silverstripe.org/stable-download/)
+[![Latest Unstable Version](https://poser.pugx.org/FriendsOfSilverStripe/backendmessages/v/unstable.svg)](https://packagist.org/packages/FriendsOfSilverStripe/backendmessages)
+[![Total Downloads](https://poser.pugx.org/FriendsOfSilverStripe/backendmessages/downloads.svg)](https://packagist.org/packages/FriendsOfSilverStripe/backendmessages)
+[![License](https://poser.pugx.org/FriendsOfSilverStripe/backendmessages/license.svg)](https://github.com/FriendsOfSilverStripe/backendmessages#license)
+
 ## Introduction
 
 Type less, do more. This module contains a number of classes to make the generation of message boxes as FormFields in the SilverStripe backend easier.
