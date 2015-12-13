@@ -9,35 +9,40 @@
  * )->addCSSClass('notice');
  * </code>
  */
-class MessageBoxField extends LiteralField {
-	/**
-	 * @var string
-	 */
-	protected $classes = 'message';
+class MessageBoxField extends LiteralField
+{
+    /**
+     * @var string
+     */
+    protected $classes = 'message';
 
-	/**
-	 * @var string
-	 */
-	public function addCSSClass($CSSClass) {
-		$this->classes .= ' ' . (string) $CSSClass;
-		return $this;
-	}
+    /**
+     * @var string
+     */
+    public function addCSSClass($CSSClass)
+    {
+        $this->classes .= ' ' . (string) $CSSClass;
+        return $this;
+    }
 
-	/**
-	 * adjusts the return to include the required classes
-	 *
-	 * @param array $properties
-	 * @return string
-	 */
-	public function FieldHolder($properties = array()) {
-		$content = $this->content;
+    /**
+     * adjusts the return to include the required classes
+     *
+     * @param array $properties
+     * @return string
+     */
+    public function FieldHolder($properties = array())
+    {
+        $content = $this->content;
 
-		if($content instanceof ViewableData) {
-			if($properties) $content = $content->customise($properties);
+        if ($content instanceof ViewableData) {
+            if ($properties) {
+                $content = $content->customise($properties);
+            }
 
-			$content = $content->forTemplate();
-		}
+            $content = $content->forTemplate();
+        }
 
-		return '<p class="' . $this->classes . '"">' . $content . '</p>';
-	}
+        return '<p class="' . $this->classes . '"">' . $content . '</p>';
+    }
 }

@@ -8,19 +8,21 @@
  * )
  * </code>
  */
-class NoticeMessage {
-	/**
-	 * @var string
-	 */
-	public static $CSSClass = 'notice';
+class NoticeMessage
+{
+    /**
+     * @var string
+     */
+    public static $CSSClass = 'notice';
 
-	/**
-	 * creates a message box
-	 *
-	 * @param string $message
-	 * @return MessageBoxField
-	 */
-	public static function create($message) {
-		return Message::generic($message, self::$CSSClass);
-	}
+    /**
+     * creates a message box
+     *
+     * @param string $message
+     * @return MessageBoxField
+     */
+    public static function create($message)
+    {
+        return Message::generic($message, self::$CSSClass);
+    }
 }
