@@ -1,15 +1,23 @@
 {
-	"name": "friendsofsilverstripe/backendmessages",
-	"type": "silverstripe-module",
-	"homepage": "https://github.com/friendsofsilverstripe",
-	"license": "BSD-3-Clause",
-	"keywords": ["silverstripe", "cms", "message", "warning", "notification"],
-	"authors": [{
-		"name": "Peter Thaleikis",
-		"homepage": "https://www.github.com/spekulatius"
-	}],
-	"require": {
-		"php": ">=5.3.2",
-		"silverstripe/framework": ">=3.0.0"
-	}
+    "name": "friendsofsilverstripe/backendmessages",
+    "type": "silverstripe-module",
+    "homepage": "https://github.com/friendsofsilverstripe",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "silverstripe",
+        "cms",
+        "message",
+        "warning",
+        "notification"
+    ],
+    "authors": [
+        {
+            "name": "Peter Thaleikis",
+            "homepage": "https://www.github.com/spekulatius"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "silverstripe/framework": ">=3.0.0"
+    }
 }
