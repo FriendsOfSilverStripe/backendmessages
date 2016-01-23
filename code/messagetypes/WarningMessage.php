@@ -1,6 +1,6 @@
 <?php
 /**
- * This field lets you put an warning message box into your backend
+ * This field lets you put an warning message box into your backend.
  *
  * <code>
  * ErrorMessage::create(
@@ -16,9 +16,10 @@ class WarningMessage
     public static $CSSClass = 'warning';
 
     /**
-     * creates a message box
+     * creates a message box.
      *
      * @param string $message
+     *
      * @return MessageBoxField
      */
     public static function create($message)

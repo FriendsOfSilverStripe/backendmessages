@@ -1,6 +1,6 @@
 <?php
 /**
- * This field lets you put an arbitrary message box into your backend
+ * This field lets you put an arbitrary message box into your backend.
  *
  * <code>
  * MessageBoxField::create(
@@ -21,14 +21,16 @@ class MessageBoxField extends LiteralField
      */
     public function addCSSClass($CSSClass)
     {
-        $this->classes .= ' ' . (string) $CSSClass;
+        $this->classes .= ' '.(string) $CSSClass;
+
         return $this;
     }
 
     /**
-     * adjusts the return to include the required classes
+     * adjusts the return to include the required classes.
      *
      * @param array $properties
+     *
      * @return string
      */
     public function FieldHolder($properties = array())
@@ -43,6 +45,6 @@ class MessageBoxField extends LiteralField
             $content = $content->forTemplate();
         }
 
-        return '<p class="' . $this->classes . '"">' . $content . '</p>';
+        return '<p class="'.$this->classes.'"">'.$content.'</p>';
     }
 }

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This field lets you put an arbitrary warning into your backend
+ * This field lets you put an arbitrary warning into your backend.
  *
  * <code>
  * BaseMessage::create(
@@ -15,6 +15,7 @@ class Message
      * Creates a error message.
      *
      * @param string
+     *
      * @return MessageBoxField
      */
     public static function generic($message = null, $CSSClass = null)
@@ -26,6 +27,7 @@ class Message
      * Creates a error message.
      *
      * @param string
+     *
      * @return MessageBoxField
      */
     public static function error($message = null)
@@ -37,6 +39,7 @@ class Message
      * Creates a warning message.
      *
      * @param string
+     *
      * @return MessageBoxField
      */
     public static function warning($message = null)
@@ -48,6 +51,7 @@ class Message
      * Creates a success message.
      *
      * @param string
+     *
      * @return MessageBoxField
      */
     public static function success($message = null)
@@ -59,6 +63,7 @@ class Message
      * Creates a notice message.
      *
      * @param string
+     *
      * @return MessageBoxField
      */
     public static function notice($message = null)

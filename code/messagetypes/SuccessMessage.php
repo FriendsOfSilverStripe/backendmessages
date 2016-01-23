@@ -1,6 +1,6 @@
 <?php
 /**
- * This field lets you put an success message box into your backend
+ * This field lets you put an success message box into your backend.
  *
  * <code>
  * SuccessMessage::create(
@@ -16,9 +16,10 @@ class SuccessMessage
     public static $CSSClass = 'good';
 
     /**
-     * creates a message box
+     * creates a message box.
      *
      * @param string $message
+     *
      * @return MessageBoxField
      */
     public static function create($message)
