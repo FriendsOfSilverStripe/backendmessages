@@ -11,6 +11,12 @@
 
 Type less, do more. This module contains a number of classes to make the generation of message boxes as FormFields in the SilverStripe backend easier.
 
+## Installation
+
+```
+composer require friendsofsilverstripe/backendmessages
+```
+
 ## Usage
 
 Within any FieldList you can call any of the following static methods to create a message box:
