@@ -7,15 +7,23 @@
 [![Total Downloads](https://poser.pugx.org/FriendsOfSilverStripe/backendmessages/downloads.svg)](https://packagist.org/packages/FriendsOfSilverStripe/backendmessages)
 [![License](https://poser.pugx.org/FriendsOfSilverStripe/backendmessages/license.svg)](https://github.com/FriendsOfSilverStripe/backendmessages/blob/master/license.md)
 
+
 ## Introduction
 
 Type less, do more. This module contains a number of classes to make the generation of message boxes as FormFields in the SilverStripe backend easier.
+
+
+## Requirements
+
+ * SilverStripe Framework ^3.0
+
 
 ## Installation
 
 ```
 composer require friendsofsilverstripe/backendmessages
 ```
+
 
 ## Usage
 
@@ -33,8 +41,3 @@ FieldList::create(
 generates
 
 <img src="https://raw.githubusercontent.com/friendsofsilverstripe/backendmessages/master/images/screenshots/messages.png">
-
-
-## Requirements
-
- * SilverStripe Framework 3.x.x
