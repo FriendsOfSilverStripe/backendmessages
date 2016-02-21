@@ -1,4 +1,4 @@
-# Backend messages
+# CMS Backend messages
 
 [![Build Status](https://api.travis-ci.org/FriendsOfSilverStripe/backendmessages.svg?branch=master)](https://travis-ci.org/FriendsOfSilverStripe/backendmessages)
 [![Latest Stable Version](https://poser.pugx.org/FriendsOfSilverStripe/backendmessages/version.svg)](https://github.com/FriendsOfSilverStripe/backendmessages/releases)
