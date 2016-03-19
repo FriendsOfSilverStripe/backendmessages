@@ -3,7 +3,7 @@
  * This field lets you put an warning message box into your backend.
  *
  * <code>
- * ErrorMessage::create(
+ * WarningMessage::create(
  *    $content = 'your warning'
  * )
  * </code>
