@@ -7,6 +7,15 @@
  *    $content = 'your error'
  * )
  * </code>
+ *
+ * or with the optional name parameter
+ *
+ * <code>
+ * ErrorMessage::create(
+ *    $content = 'your error',
+ *    $name = 'FieldName'
+ * )
+ * </code>
  */
 class ErrorMessage
 {
@@ -19,11 +28,12 @@ class ErrorMessage
      * creates a message box.
      *
      * @param string $message
+     * @param string $name (optional)
      *
      * @return MessageBoxField
      */
-    public static function create($message)
+    public static function create($message, $name = null)
     {
-        return Message::generic($message, self::$CSSClass);
+        return Message::generic($message, self::$CSSClass, $name);
     }
 }

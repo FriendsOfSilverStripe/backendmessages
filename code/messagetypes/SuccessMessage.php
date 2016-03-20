@@ -7,6 +7,15 @@
  *    $content = 'your request was successful submitted.'
  * )
  * </code>
+ *
+ * or with the optional name parameter
+ *
+ * <code>
+ * SuccessMessage::create(
+ *    $content = 'your warning',
+ *    $name = 'fieldName
+ * )
+ * </code>
  */
 class SuccessMessage
 {
@@ -19,11 +28,12 @@ class SuccessMessage
      * creates a message box.
      *
      * @param string $message
+     * @param string $name (optional)
      *
      * @return MessageBoxField
      */
-    public static function create($message)
+    public static function create($message, $name = null)
     {
-        return Message::generic($message, self::$CSSClass);
+        return Message::generic($message, self::$CSSClass, $name);
     }
 }

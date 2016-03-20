@@ -7,6 +7,15 @@
  *    $content = 'your notice'
  * )
  * </code>
+ *
+ * or with the optional name parameter
+ *
+ * <code>
+ * NoticeMessage::create(
+ *    $content = 'your notice',
+ *    $name = 'FieldName'
+ * )
+ * </code>
  */
 class NoticeMessage
 {
@@ -19,11 +28,12 @@ class NoticeMessage
      * creates a message box.
      *
      * @param string $message
+     * @param string $name (optional)
      *
      * @return MessageBoxField
      */
-    public static function create($message)
+    public static function create($message, $name = null)
     {
-        return Message::generic($message, self::$CSSClass);
+        return Message::generic($message, self::$CSSClass, $name);
     }
 }
