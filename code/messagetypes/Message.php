@@ -32,7 +32,7 @@ class Message
     public static function generic($message = null, $CSSClass = null, $name = null)
     {
         // ensure that we are having a name as well as keeping it consistent with the original behaviour
-        if ($name = null) {
+        if ($name == null) {
             $name = md5($message);
         }
 

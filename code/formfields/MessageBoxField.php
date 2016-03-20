@@ -45,6 +45,6 @@ class MessageBoxField extends LiteralField
             $content = $content->forTemplate();
         }
 
-        return '<p class="'.$this->classes.'"">'.$content.'</p>';
+        return '<p class="'.$this->classes.'"" name="'.$this->getName().'">'.$content.'</p>';
     }
 }
