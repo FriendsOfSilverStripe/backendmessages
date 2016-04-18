@@ -7,7 +7,7 @@
 [![Total Downloads](https://poser.pugx.org/FriendsOfSilverStripe/backendmessages/downloads.svg)](https://packagist.org/packages/FriendsOfSilverStripe/backendmessages)
 [![License](https://poser.pugx.org/FriendsOfSilverStripe/backendmessages/license.svg)](https://github.com/FriendsOfSilverStripe/backendmessages/blob/master/license.md)
 
-Type less, do more. This module contains a number of classes to make the generation of message boxes as  [FormFields in the SilverStripe backend easier](https://github.com/FriendsOfSilverStripe/backendmessages).
+Type less, do more. This module contains a number of classes to make the generation of [message boxes as FormFields in the SilverStripe backend easier](https://github.com/FriendsOfSilverStripe/backendmessages).
 
 
 ## Requirements
