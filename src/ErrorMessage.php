@@ -1,28 +1,31 @@
 <?php
 /**
- * This field lets you put an notice message box into your backend.
+ * This field lets you put an error message box into your backend.
  *
  * <code>
- * NoticeMessage::create(
- *    $content = 'your notice'
+ * ErrorMessage::create(
+ *    $content = 'your error'
  * )
  * </code>
  *
  * or with the optional name parameter
  *
  * <code>
- * NoticeMessage::create(
- *    $content = 'your notice',
+ * ErrorMessage::create(
+ *    $content = 'your error',
  *    $name = 'FieldName'
  * )
  * </code>
  */
-class NoticeMessage
+
+namespace FriendsOfSilverStripe\Backendmessages;
+
+class ErrorMessage
 {
     /**
      * @var string
      */
-    public static $CSSClass = 'notice';
+    public static $CSSClass = 'error';
 
     /**
      * creates a message box.

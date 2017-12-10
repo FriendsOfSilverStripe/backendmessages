@@ -18,6 +18,10 @@ composer require friendsofsilverstripe/backendmessages
 Within any FieldList you can call any of the following static methods to create a message box:
 
 ````
+use FriendsOfSilverStripe\Backendmessages;
+
+// [...]
+
 FieldList::create(
 	ErrorMessage::create('Ehh, something went wrong.'),
 	WarningMessage::create('Be careful with this!'),

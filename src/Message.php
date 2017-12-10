@@ -18,6 +18,9 @@
  * )
  * </code>
  */
+
+namespace FriendsOfSilverStripe\Backendmessages;
+
 class Message
 {
     /**

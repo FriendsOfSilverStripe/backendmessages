@@ -1,7 +1,7 @@
 {
     "name": "friendsofsilverstripe/backendmessages",
     "description": "DRY way to create message boxes in SilverStripe backend.",
-    "type": "silverstripe-module",
+     "type": "silverstripe-vendormodule",
     "homepage": "https://github.com/friendsofsilverstripe",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -19,9 +19,17 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "silverstripe/framework": "^3.0"
+        "silverstripe/framework": "^4.0"
     },
     "support": {
         "issues": "https://github.com/FriendsOfSilverStripe/backendmessages/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "FriendsOfSilverStripe\\Backendmessages\\": "src/"
+        }
+    },
+    "scripts": {
+        "lint": "phpcs src/"
     }
 }

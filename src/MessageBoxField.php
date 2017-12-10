@@ -9,6 +9,11 @@
  * )->addCSSClass('notice');
  * </code>
  */
+
+namespace FriendsOfSilverStripe\Backendmessages;
+
+use SilverStripe\Forms\LiteralField;
+
 class MessageBoxField extends LiteralField
 {
     /**

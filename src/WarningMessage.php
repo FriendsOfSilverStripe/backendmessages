@@ -1,28 +1,31 @@
 <?php
 /**
- * This field lets you put an success message box into your backend.
+ * This field lets you put an warning message box into your backend.
  *
  * <code>
- * SuccessMessage::create(
- *    $content = 'your request was successful submitted.'
+ * WarningMessage::create(
+ *    $content = 'your warning'
  * )
  * </code>
  *
  * or with the optional name parameter
  *
  * <code>
- * SuccessMessage::create(
+ * WarningMessage::create(
  *    $content = 'your warning',
- *    $name = 'fieldName
+ *    $name = 'fieldName'
  * )
  * </code>
  */
-class SuccessMessage
+
+namespace FriendsOfSilverStripe\Backendmessages;
+
+class WarningMessage
 {
     /**
      * @var string
      */
-    public static $CSSClass = 'good';
+    public static $CSSClass = 'warning';
 
     /**
      * creates a message box.
