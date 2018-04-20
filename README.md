@@ -3,7 +3,7 @@
 
 ### Requirements
 
- * SilverStripe Framework ^3.0
+ * SilverStripe Framework ^3.0 or ^4.0
 
 
 ### Installation
