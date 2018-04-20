@@ -1,7 +1,7 @@
 {
     "name": "friendsofsilverstripe/backendmessages",
     "description": "DRY way to create message boxes in SilverStripe backend.",
-     "type": "silverstripe-vendormodule",
+    "type": "silverstripe-vendormodule",
     "homepage": "https://github.com/friendsofsilverstripe",
     "license": "BSD-3-Clause",
     "keywords": [
