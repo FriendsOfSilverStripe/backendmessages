@@ -34,4 +34,12 @@ generates
 
 <img src="https://raw.githubusercontent.com/friendsofsilverstripe/backendmessages/master/images/screenshots/messages.png">
 
+#### Allow HTML in the backend messages
+
+Add the following to your config.yml
+```
+FriendsOfSilverStripe\Backendmessages\MessageBoxField:
+  allow_html: true
+```
+
 ## MISC: [Future ideas/development, issues](https://github.com/FriendsOfSilverStripe/backendmessages/issues), [Contributing](https://github.com/FriendsOfSilverStripe/backendmessages/blob/master/CONTRIBUTING.md), [License](https://github.com/FriendsOfSilverStripe/backendmessages/blob/master/license.md)
