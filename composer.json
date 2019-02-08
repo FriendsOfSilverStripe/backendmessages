@@ -14,12 +14,12 @@
     "authors": [
         {
             "name": "Peter Thaleikis",
-            "homepage": "https://thaleikis.de"
+            "homepage": "https://bringyourownideas.com"
         }
     ],
     "require": {
-        "php": ">=5.3.2",
-        "silverstripe/framework": "^4.0"
+        "php": "^7",
+        "silverstripe/framework": "^4"
     },
     "support": {
         "issues": "https://github.com/FriendsOfSilverStripe/backendmessages/issues"
