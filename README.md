@@ -35,3 +35,7 @@ generates
 <img src="https://raw.githubusercontent.com/friendsofsilverstripe/backendmessages/master/images/screenshots/messages.png">
 
 ## MISC: [Future ideas/development, issues](https://github.com/FriendsOfSilverStripe/backendmessages/issues), [Contributing](https://github.com/FriendsOfSilverStripe/backendmessages/blob/master/CONTRIBUTING.md), [License](https://github.com/FriendsOfSilverStripe/backendmessages/blob/master/license.md)
+
+This project is supported by [bring your own ideas Ltd.](https://bringyourownideas.com). Bring Your Own Ideas Ltd. helps you to make your project ideas to reality.
+
+[![bring your own ideas](https://bringyourownideas.com/images/byoi-light-bulb-transparent-background.png)](https://bringyourownideas.com)
