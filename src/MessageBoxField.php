@@ -27,7 +27,8 @@ class MessageBoxField extends LiteralField
     /**
      * Allow generic messages to contain HTML.
      * Defaults to false to maintain backwards compatibility
-     * @var bool
+     *
+     * @var boolean
      */
     private static $allow_html = false;
 
