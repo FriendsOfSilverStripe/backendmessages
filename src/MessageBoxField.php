@@ -13,13 +13,24 @@
 namespace FriendsOfSilverStripe\Backendmessages;
 
 use SilverStripe\Forms\LiteralField;
+use SilverStripe\Core\Config\Configurable;
 
 class MessageBoxField extends LiteralField
 {
+    use Configurable;
+
     /**
      * @var string
      */
     protected $classes = 'message';
+
+    /**
+     * Allow generic messages to contain HTML.
+     * Defaults to false to maintain backwards compatibility
+     *
+     * @var boolean
+     */
+    private static $allow_html = false;
 
     /**
      * @var string
@@ -50,6 +61,10 @@ class MessageBoxField extends LiteralField
             $content = $content->forTemplate();
         }
 
-        return '<p class="'.$this->classes.'"" name="'.$this->getName().'">'.$content.'</p>';
+        if($this->config()->allow_html === true) {
+            return '<div class="'.$this->classes.'"" name="'.$this->getName().'">'.$content.'</div>';
+        } else {
+            return '<p class="'.$this->classes.'"" name="'.$this->getName().'">'.$content.'</p>';
+        }
     }
 }
