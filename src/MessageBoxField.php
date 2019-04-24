@@ -18,6 +18,7 @@ use SilverStripe\Core\Config\Configurable;
 class MessageBoxField extends LiteralField
 {
     use Configurable;
+
     /**
      * @var string
      */
@@ -64,6 +65,5 @@ class MessageBoxField extends LiteralField
         } else {
             return '<p class="'.$this->classes.'"" name="'.$this->getName().'">'.$content.'</p>';
         }
-
     }
 }
