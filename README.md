@@ -18,7 +18,11 @@ composer require friendsofsilverstripe/backendmessages
 Within any FieldList you can call any of the following static methods to create a message box:
 
 ````
-use FriendsOfSilverStripe\Backendmessages;
+use FriendsOfSilverStripe\Backendmessages\ErrorMessage;
+use FriendsOfSilverStripe\Backendmessages\WarningMessage;
+use FriendsOfSilverStripe\Backendmessages\SuccessMessage;
+use FriendsOfSilverStripe\Backendmessages\NoticeMessage;
+use FriendsOfSilverStripe\Backendmessages\Message;
 
 // [...]
 
