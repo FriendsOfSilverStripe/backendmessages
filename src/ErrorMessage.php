@@ -25,7 +25,7 @@ class ErrorMessage
     /**
      * @var string
      */
-    public static $CSSClass = 'error';
+    public static $CSSClass = 'alert-danger';
 
     /**
      * creates a message box.
