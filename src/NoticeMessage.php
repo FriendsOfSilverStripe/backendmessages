@@ -25,7 +25,7 @@ class NoticeMessage
     /**
      * @var string
      */
-    public static $CSSClass = 'notice';
+    public static $CSSClass = 'alert-primary';
 
     /**
      * creates a message box.

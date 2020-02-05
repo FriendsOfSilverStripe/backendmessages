@@ -22,7 +22,7 @@ class MessageBoxField extends LiteralField
     /**
      * @var string
      */
-    protected $classes = 'message';
+    protected $classes = 'alert';
 
     /**
      * Allow generic messages to contain HTML.

@@ -25,7 +25,7 @@ class SuccessMessage
     /**
      * @var string
      */
-    public static $CSSClass = 'good';
+    public static $CSSClass = 'alert-success';
 
     /**
      * creates a message box.
