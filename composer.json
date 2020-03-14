@@ -21,6 +21,9 @@
         "php": "^7",
         "silverstripe/framework": "^4.0"
     },
+    "require-dev": {
+        "symfony/thanks": "^1.0"
+    },
     "support": {
         "issues": "https://github.com/FriendsOfSilverStripe/backendmessages/issues"
     },
