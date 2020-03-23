@@ -18,7 +18,7 @@
         }
     ],
     "require": {
-        "php": "^7",
+        "php": "^7.2",
         "silverstripe/framework": "^4.0"
     },
     "require-dev": {
