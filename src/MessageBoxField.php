@@ -14,6 +14,7 @@ namespace FriendsOfSilverStripe\Backendmessages;
 
 use SilverStripe\Forms\LiteralField;
 use SilverStripe\Core\Config\Configurable;
+use SilverStripe\View\ViewableData;
 
 class MessageBoxField extends LiteralField
 {
